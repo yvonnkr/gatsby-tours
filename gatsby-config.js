@@ -1,9 +1,9 @@
 //RESTART FOR CHANGES TO BE APPLIED
 
-//for .env to work
+//for .env to work ----
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
-})
+});
 
 module.exports = {
   siteMetadata: {
@@ -39,4 +39,4 @@ module.exports = {
       },
     },
   ],
-}
+};

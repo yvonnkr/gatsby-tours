@@ -31,6 +31,11 @@ const Navbar = () => {
             Images
           </Link>
         </li>
+        <li>
+          <Link to="/tours" className={styles.navItem}>
+            Tours
+          </Link>
+        </li>
       </ul>
     </nav>
   )
